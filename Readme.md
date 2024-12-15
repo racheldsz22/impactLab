@@ -8,7 +8,7 @@ This repository contains multiple projects and challenges designed to demonstrat
 
 - **[`apiDesignPHP`](#apiDesignPHP)**: Focuses on designing and implementing RESTful APIs in PHP.
 - **[`impactLabTest`](#impactLabTest)**: A Laravel-based project showcasing API development, database schema design, and e-commerce-related functionalities.
-- **[`programming_challenge_php`](#programming_challenge_php)**: Solves various programming challenges using PHP.
+- **[`programmingChallengePHP)*`](#programmingChallengePHP)**: Solves various programming challenges using PHP.
 - **[`database_queries_php`](#database_queries_php)**: Implements SQL queries for different database scenarios.
 
 ---
