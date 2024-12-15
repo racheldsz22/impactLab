@@ -83,3 +83,30 @@ This folder includes SQL queries for tasks such as:
     LIMIT 5;
 
     Refer to the file for detailed SQL implementations.
+
+
+
+## Task Completed
+- Programming Challenges (PHP)
+- Creating and Designing APIs (PHP)
+- Working with Database Queries (PHP)
+- Building APIs (Laravel)
+- Database Schema and Seeding (Laravel)
+
+
+## Task Pending
+- Automated Testing (Laravel)
+- Automating Infrastructure Setup (Laravel)
+
+Reason for not prioritizing Automating Infrastructure Setup and Automated Testing:
+
+While both are crucial for long-term scalability, I focused on core functionality for the following reasons:
+
+- Core Functionality First: Testing is only effective after core features are built. I prioritized developing and ensuring the core app works as intended.
+
+- Separate Test Code: The provided test cases differed from my existing code, requiring additional time to implement separately.
+
+- Time Constraints: Given the time limitations, I focused on delivering essential features. Automating deployment and tests would have delayed progress.
+
+- Future Plans: Once the core application is stable, I plan to implement both automated deployment and testing to ensure long-term maintainability.
+
