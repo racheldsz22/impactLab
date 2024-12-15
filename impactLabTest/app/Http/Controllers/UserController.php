@@ -14,15 +14,11 @@ class UserController extends Controller
     {
         try {
 
-
-
-            // Validate and sanitize user_id
+            // sanitize user_id
             $validatedId = (int) $id;  // Casting to integer to sanitize input
 
             // Find the user by ID
             $user = User::find($validatedId);
-
-
 
             // Check if the user exists
             if (!$user || $user->deleted_at !== null) {

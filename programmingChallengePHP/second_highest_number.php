@@ -34,6 +34,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Get and sanitize input
         $numbersInput = $_POST['numbers'] ?? '';
         $nInput = $_POST['n'] ?? $defaultN; // Use default if not provided
+        
+        // Check if input is empty
+        if (empty($numbersInput)) {
+            throw new Exception("Input cannot be empty. Please enter a comma-separated list of numbers.");
+        }
 
         // Convert numbers to array
         $numbersArray = array_map('trim', explode(',', $numbersInput));

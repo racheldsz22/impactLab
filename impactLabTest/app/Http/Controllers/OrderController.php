@@ -128,13 +128,13 @@ class OrderController extends Controller
             // Commit transaction
             DB::commit();
 
-            // Eager load the order_items relationship
+           
             $order->load('orderItems');
 
             // Prepare response data
             $responseData = [
                 [
-                    'user_id' => $order->user_id,
+                    'Customer Name' => $order->user->name,
                     'status' => $order->status,
                     'total_price' => number_format($order->total_price, 2),
                     'order_items' => $order->orderItems->map(function ($item) {
